@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+selenium
+firebase-admin
+python-dotenv
+httpx
+gunicorn
+webdriver-manager
