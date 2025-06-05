@@ -17,7 +17,8 @@ def criar_liberacao_econdo(nome, data_checkin, data_checkout):
 
     wait = WebDriverWait(driver, 20)  # Até 20s para cada etapa
 
-    try:
+    try: 
+
         driver.get('https://app.econdos.com.br/')
 
         wait.until(EC.visibility_of_element_located((By.CSS_SELECTOR, "[data-testid='login-username-input']"))).send_keys('tiagoddantas@me.com')
